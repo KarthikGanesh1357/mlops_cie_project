@@ -1,0 +1,36 @@
+artifact_path: model
+flavors:
+  python_function:
+    env: conda.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    python_version: 3.7.7
+  sklearn:
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 0.23.2
+run_id: 4323c784e9ad4c87afd42aa8c75eae5d
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  type: dataframe
+signature:
+  inputs: '[{"name": "acessorios", "type": "double"}, {"name": "agua", "type": "double"},
+    {"name": "alcool", "type": "double"}, {"name": "alimentacao", "type": "double"},
+    {"name": "alimentacao produtos", "type": "double"}, {"name": "cabo", "type": "double"},
+    {"name": "cirurgico", "type": "double"}, {"name": "construcao", "type": "double"},
+    {"name": "consumo", "type": "double"}, {"name": "consumo hospitalar", "type":
+    "double"}, {"name": "eletrico", "type": "double"}, {"name": "eletricos", "type":
+    "double"}, {"name": "equipamentos", "type": "double"}, {"name": "equipamentos
+    equipamentos", "type": "double"}, {"name": "equipamentos hospitalares", "type":
+    "double"}, {"name": "especificacoes", "type": "double"}, {"name": "ferragens",
+    "type": "double"}, {"name": "ferramentas", "type": "double"}, {"name": "hospitalar",
+    "type": "double"}, {"name": "hospitalares", "type": "double"}, {"name": "informatica",
+    "type": "double"}, {"name": "laboratorio", "type": "double"}, {"name": "manutencao",
+    "type": "double"}, {"name": "material", "type": "double"}, {"name": "medicamentos",
+    "type": "double"}, {"name": "pereciveis", "type": "double"}, {"name": "produtos",
+    "type": "double"}, {"name": "produtos pereciveis", "type": "double"}, {"name":
+    "pvc", "type": "double"}, {"name": "seguranca", "type": "double"}, {"name": "tubo",
+    "type": "double"}, {"name": "VL_UNITARIO_HOMOLOGADO", "type": "double"}]'
+  outputs: null
+utc_time_created: '2020-09-02 02:22:31.255865'

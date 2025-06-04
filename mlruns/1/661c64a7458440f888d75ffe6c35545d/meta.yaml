@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Projects/rs-public-bids/notebooks/mlruns/1/661c64a7458440f888d75ffe6c35545d/artifacts
+end_time: 1599013362832
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+name: ''
+run_id: 661c64a7458440f888d75ffe6c35545d
+run_uuid: 661c64a7458440f888d75ffe6c35545d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1599013362481
+status: 3
+tags: []
+user_id: Farb

@@ -1,0 +1,4 @@
+artifact_location: file:///D:/Projects/rs-public-bids/notebooks/mlruns/1
+experiment_id: '1'
+lifecycle_stage: active
+name: Anomaly Classification
